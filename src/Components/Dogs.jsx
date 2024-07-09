@@ -1,4 +1,4 @@
-import { useDogs } from "../App";
+import { useDogs } from "../Components/providers/dog.provider";
 import { DogCard } from "./DogCard";
 
 export const Dogs = () => {

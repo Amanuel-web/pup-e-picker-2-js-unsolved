@@ -1,4 +1,4 @@
-import { useDogs } from "../App";
+import { useDogs } from "../Components/providers/dog.provider";
 
 export const Section = ({ label, children }) => {
   const { activeTab, setActiveTab, dogs } = useDogs();

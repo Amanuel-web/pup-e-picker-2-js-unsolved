@@ -1,26 +1,36 @@
 import { useState } from "react";
-import { useDogs } from "../App";
+import { useDogs } from "../Components/providers/dog.provider";
 import { dogPictures } from "../dog-pictures";
 import toast from "react-hot-toast";
 
 export const CreateDogForm = () => {
-  const { addDog, loading } = useDogs();
+  const resetStateForm = () => {
+    setName("");
+    setDescription("");
+    setSelectedImage(dogPictures.BlueHeeler);
+  };
+
   const [name, setName] = useState("");
   const [description, setDescription] = useState("");
   const [selectedImage, setSelectedImage] = useState(dogPictures.BlueHeeler);
 
+  const { addDog, loading } = useDogs();
+
   const handleSubmit = async (e) => {
     e.preventDefault();
-    await addDog({
+    addDog({
       name,
       description,
       image: selectedImage,
       isFavorite: false,
-    });
-    setName("");
-    setDescription("");
-    setSelectedImage(dogPictures.BlueHeeler);
-    toast.success("Dog Created");
+    })
+      .then(() => {
+        resetStateForm();
+        toast.success("Dog Created");
+      })
+      .catch(() => {
+        toast.error("Dog Creating Failed");
+      });
   };
 
   return (

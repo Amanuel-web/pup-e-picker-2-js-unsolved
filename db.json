@@ -4,7 +4,7 @@
       "name": "Brittany",
       "image": "/src/assets/boxer.png",
       "description": "Officer Village Electronic Pop Wooden Concrete AI",
-      "isFavorite": true,
+      "isFavorite": false,
       "id": "0"
     },
     {
@@ -25,49 +25,49 @@
       "name": "Madie",
       "image": "/src/assets/boxer.png",
       "description": "ugh Bicycle ha Land but",
-      "isFavorite": true,
+      "isFavorite": false,
       "id": "3"
     },
     {
       "name": "Eino",
       "image": "/src/assets/dalmation.png",
       "description": "evolve methodologies Polestar Lakes Multigender",
-      "isFavorite": true,
+      "isFavorite": false,
       "id": "4"
     },
     {
       "name": "Brendan",
       "image": "/src/assets/blue-heeler.png",
       "description": "oh Mexican Credit consequently West",
-      "isFavorite": true,
+      "isFavorite": false,
       "id": "5"
     },
     {
       "name": "Stanley",
       "image": "/src/assets/corgi.png",
       "description": "Investor except Lutetium Assistant B2C Kristian Liaison Plastic",
-      "isFavorite": true,
+      "isFavorite": false,
       "id": "6"
     },
     {
       "name": "Dave",
       "image": "/src/assets/blue-heeler.png",
       "description": "Beauty Bahamian Toys Diesel digital Chief across",
-      "isFavorite": true,
+      "isFavorite": false,
       "id": "7"
     },
     {
       "name": "Neil",
       "image": "/src/assets/dalmation.png",
       "description": "grouchy monitor Home brightly Kids copying fuchsia Bronze",
-      "isFavorite": true,
+      "isFavorite": false,
       "id": "8"
     },
     {
       "name": "Vergie",
       "image": "/src/assets/corgi.png",
       "description": "Chief Wooden ohm Hatchback laugh",
-      "isFavorite": true,
+      "isFavorite": false,
       "id": "9"
     },
     {
